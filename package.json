@@ -1,11 +1,10 @@
 {
   "name": "backend",
   "version": "1.0.0",
-  "description": "",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "nodemon test4.js"
   },
   "author": "",
   "license": "ISC",
@@ -20,5 +19,15 @@
   },
   "devDependencies": {
     "nodemon": "^3.1.10"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/choinamhoe/backend_lecture.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/choinamhoe/backend_lecture/issues"
+  },
+  "homepage": "https://github.com/choinamhoe/backend_lecture#readme",
+  "description": ""
 }

@@ -8,7 +8,7 @@ const cors = require("cors");
 const app = express();
 const port = 5000;
 
-app.use(cors());
+// app.use(cors());
 app.use(express.json());
 
 let notes = [];
@@ -18,6 +18,7 @@ app.post("/notes", (req, res) => {
   const { title, content } = req.body;
   const newNote = { id: idCounter++, title, content };
   notes.push(newNote);
+  console.log(notes);
   res.status(201).json(newNote);
 });
 
